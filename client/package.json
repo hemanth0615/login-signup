@@ -17,7 +17,7 @@
   "scripts": {
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "start:frontend": "cd ../client && npm start",
-    "start:backend": "cd ../server && PORT=3000 node index.js",
+    "start:backend": "cd ../server && PORT=4000 node index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
