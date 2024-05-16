@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm-run-all --parallel start:frontend start:backend",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "start:frontend": "cd client && npm start",
     "start:backend": "cd server && node index.js",
     "build": "react-scripts build",
