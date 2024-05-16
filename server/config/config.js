@@ -1,4 +1,4 @@
 module.exports = {
-    mongoURI: 'mongodb://localhost:27017/' // Add your MongoDB URI here
+    mongoURI: 'mongodb+srv://hemanth:hemanth@login-signup.zsamal5.mongodb.net/?retryWrites=true&w=majority&appName=Login-Signup' // Add your MongoDB URI here
   };
   
